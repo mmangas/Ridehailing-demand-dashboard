@@ -1,4 +1,4 @@
-# Ridehailing-demand-dashboard
+# RidehailingDemandDashboard
 
 Proyecto end-to-end de ciencia de datos para analizar y predecir la demanda de servicios de ride-hailing utilizando tecnologías Big Data y un dashboard interactivo.
 
