@@ -11,7 +11,7 @@ st.set_page_config(layout="wide")
 # =========================
 # CARGA DE DATOS
 # =========================
-df = pd.read_csv("data/final_dataset.csv")
+df = pd.read_csv("final_dataset.csv")
 
 # =========================
 # SIDEBAR FILTROS
@@ -238,7 +238,7 @@ Se observa un clúster central dominante y zonas periféricas con menor activida
 """)
 
     # GeoJSON correcto
-    with open("data/chicago_geo.json") as f:
+    with open("chicago_geo.json") as f:
         geojson = json.load(f)
 
     map_df = (
