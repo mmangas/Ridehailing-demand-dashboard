@@ -5,7 +5,9 @@ import folium
 import numpy as np
 from streamlit_folium import st_folium
 import json
-
+print("INICIANDO APP")
+import streamlit as st
+print("STREAMLIT IMPORTADO")
 st.set_page_config(layout="wide")
 
 # =========================
